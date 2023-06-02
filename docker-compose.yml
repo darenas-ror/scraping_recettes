@@ -1,0 +1,16 @@
+version: '3'
+services:
+  postgres:
+    image: kartoza/postgis
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASS=postgres
+      - POSTGRES_DB=sobreplanos-development
+    volumes:
+      - ~/data/postgres_data:/var/lib/postgresql
+  redis:
+    image: redis
+    ports:
+      - '6379:6379'
