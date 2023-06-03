@@ -73,3 +73,4 @@ end
 
 gem 'motor-admin'
 gem 'devise'
+gem 'cancancan'
