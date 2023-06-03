@@ -1,0 +1,52 @@
+---
+engine_version: 0.4.17
+file_version: 2023-06-03 05:10:54.983189000 Z
+resources:
+- name: ingredient
+  preferences:
+    columns:
+    - column_type: link
+      name: cover
+  updated_at: 2023-06-03 05:02:35.028195000 +00:00
+- name: recipe
+  preferences:
+    columns:
+    - column_type: richtext
+      access_type: hidden
+      name: instruction
+    - access_type: hidden
+      name: created_at
+    - access_type: hidden
+      name: updated_at
+    - column_type: link
+      name: cover
+    - access_type: hidden
+      name: description
+  updated_at: 2023-06-03 05:04:40.081948000 +00:00
+- name: recipe_ingredient
+  preferences:
+    columns:
+    - access_type: hidden
+      name: updated_at
+    - access_type: hidden
+      name: created_at
+  updated_at: 2023-06-03 04:59:31.544767000 +00:00
+configs:
+- key: header.links
+  value:
+  - name: Reports
+    link_type: reports
+  - name: Forms
+    link_type: forms
+  updated_at: 2023-06-03 05:10:54.983189000 +00:00
+queries: []
+dashboards: []
+forms: []
+alerts: []
+api_configs:
+- id: 1
+  name: origin
+  url: "/"
+  preferences: {}
+  description:
+  updated_at: 2023-06-02 22:39:32.275226000 +00:00
