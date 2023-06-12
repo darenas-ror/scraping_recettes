@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  mount Motor::Admin => '/motor_admin'
+  mount Motor::Admin => '/recettes_admin'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
