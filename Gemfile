@@ -76,3 +76,4 @@ gem 'devise'
 gem 'cancancan'
 
 gem 'jsonapi-rails'
+gem 'friendly_id'
