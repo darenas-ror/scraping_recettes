@@ -4,7 +4,7 @@ module Api
       class IngredientsController < Api::V1::BaseController
         def index
           ingredients = Ingredient.where("LOWER(name) LIKE '%#{name_ingredient_param}%'")
-          render json: ingredients
+          render jsonapi: ingredients
         end
 
         private
