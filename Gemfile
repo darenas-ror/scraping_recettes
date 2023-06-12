@@ -74,3 +74,5 @@ end
 gem 'motor-admin'
 gem 'devise'
 gem 'cancancan'
+
+gem 'jsonapi-rails'
