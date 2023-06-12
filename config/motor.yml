@@ -1,6 +1,6 @@
 ---
 engine_version: 0.4.17
-file_version: 2023-06-03 05:10:54.983189000 Z
+file_version: 2023-06-12 02:08:13.756854000 Z
 resources:
 - name: ingredient
   preferences:
@@ -12,7 +12,6 @@ resources:
   preferences:
     columns:
     - column_type: richtext
-      access_type: hidden
       name: instruction
     - access_type: hidden
       name: created_at
@@ -20,9 +19,9 @@ resources:
       name: updated_at
     - column_type: link
       name: cover
-    - access_type: hidden
+    - column_type: richtext
       name: description
-  updated_at: 2023-06-03 05:04:40.081948000 +00:00
+  updated_at: 2023-06-12 02:08:13.756854000 +00:00
 - name: recipe_ingredient
   preferences:
     columns:
@@ -34,11 +33,9 @@ resources:
 configs:
 - key: header.links
   value:
-  - name: Reports
-    link_type: reports
-  - name: Forms
-    link_type: forms
-  updated_at: 2023-06-03 05:10:54.983189000 +00:00
+  - name: "⭐ Star on GitHub"
+    path: https://github.com/motor-admin/motor-admin-rails
+  updated_at: 2023-06-12 01:35:50.537438000 +00:00
 queries: []
 dashboards: []
 forms: []
@@ -49,4 +46,4 @@ api_configs:
   url: "/"
   preferences: {}
   description:
-  updated_at: 2023-06-02 22:39:32.275226000 +00:00
+  updated_at: 2023-06-12 01:35:50.668535000 +00:00
